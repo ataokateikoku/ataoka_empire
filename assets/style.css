@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+.opp{
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainmozi{
+    padding: 180px 0 100px 0; /*時計回り*/
+    color: white;
+    background-image: url("img/main.jpg");
+    background-size: cover;
+    background-position: center;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.mainmozi h1{
+    font-size: 60px;
+    letter-spacing:  5px; /*文字スペース*/
+    text-align: center;
+    color:rgb(236, 0, 130);
+    text-shadow: 3px 4px 3px rgb(61 70 70);
+}
+
+.mainmozi p{
+    opacity: 0.9;
+    font-size: 40px;
+    color:rgb(224, 60, 150);
+    text-align: center;
+    text-shadow: 3px 4px 3px rgb(61 70 70);
+}
+
+footer{
+    padding-top: 10px;
+}
+
+.setumei{
+    
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.setumei h2{
+    font-size: 50px;
+    color: #5f5d60;
+}
+
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.lesson{
+    float:left;
+    display: flex;
+    width: 25;
+    justify-content: center;
+}
+
+@media(max-width:1000px){
+    .lesson{
+        width: 50%;
+    }
+}
+
+@media(max-width:670px){
+    .lesson{
+        width: 100%;
+    }
+    .top{
+        font-size: 32px;
+    }
+    .btn{
+        width: 100%;
+    }
+    .face{
+        margin-bottom: 10px;
+    }
+    footer{
+        text-align: center;
+    }
+    .munu-icon{
+        display: block;
+    }
+    .hed-right{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .invitation{
+        /* background-color: #41a569;
+        padding: 10px 40px; */
+        text-align: center;
+    }
+}
+
+.lesson_icon{
+    position: relative;
+    float: left;
+}
+
+.lesson_icon p{
+    width: 100%;
+    color: #FFFFFF;
+    position: absolute;
+    top:80px;
+}
+
+.txt-con{
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b3aeb5;
+}
+
+.txt-con1{
+    font-size: 12px;
+    color: #b3aeb5;
+}
+
+.heading h3{
+    font-weight:normal;
+}
+
+.invitation{
+    /* background-color: #41a569;
+    padding: 10px 40px; */
+    text-align: center;
+}
+
+.Btn01{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+}
+.Btn01:hover:after {
+    top: 0;
+    left: 0;
+}
+.Btn01:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #6c757d;
+}
+
+.clear{
+    clear: left;
+}
+
+.owari{
+    text-align: center;
+    font-size: 10px;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
