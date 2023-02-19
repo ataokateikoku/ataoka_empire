@@ -69,23 +69,13 @@ h2{
     font-weight: normal;
 }
 
-.lesson{
-    float:left;
-    display: flex;
-    width: 25;
-    justify-content: center;
-}
+
 
 @media(max-width:1000px){
-    .lesson{
-        width: 50%;
-    }
+
 }
 
 @media(max-width:670px){
-    .lesson{
-        width: 100%;
-    }
     .top{
         font-size: 32px;
     }
@@ -108,22 +98,8 @@ h2{
 
 @media screen and (max-width: 480px) {
     .invitation{
-        /* background-color: #41a569;
-        padding: 10px 40px; */
         text-align: center;
     }
-}
-
-.lesson_icon{
-    position: relative;
-    float: left;
-}
-
-.lesson_icon p{
-    width: 100%;
-    color: #FFFFFF;
-    position: absolute;
-    top:80px;
 }
 
 .txt-con{
@@ -144,8 +120,6 @@ h2{
 }
 
 .invitation{
-    /* background-color: #41a569;
-    padding: 10px 40px; */
     text-align: center;
 }
 
