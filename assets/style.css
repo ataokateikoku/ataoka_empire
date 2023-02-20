@@ -117,6 +117,7 @@ h2{
 
 .heading h3{
     font-weight:normal;
+    position: fixed;
 }
 
 .invitation{
